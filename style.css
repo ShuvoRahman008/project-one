@@ -1,0 +1,74 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.banner-img-1 {
+  background-image: url("./images/baner5.jpg");
+  background-size: cover;
+  height: 75vh;
+}
+
+.banner-img-2 {
+  background-image: url("./images/624b4890bd1805cb55fd0784_10\ key\ bg.jpeg");
+  background-size: cover;
+
+  height: 75vh;
+}
+.banner-img-3 {
+  background-image: url("./images/baner5.jpg");
+  height: 75vh;
+  background-size: cover;
+}
+.interior {
+  color: #dfb281;
+}
+.architect-img {
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.Architect-background-img {
+  background-image: url("./images/Screenshot_1@2x.png");
+  background-repeat: no-repeat;
+}
+
+.btn-quote {
+  padding: 5px 5px 5px 5px;
+  background-image: url("./images/Group\ 26.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  width: 171px;
+  height: 50px;
+}
+.btn-explore {
+  padding: 10px 20px 10px 20px;
+  background-image: url("./images/Group\ 26.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 55px;
+}
+.number-25 {
+  width: 104px;
+  height: 120px;
+  font-size: 90px;
+}
+.contact-blog {
+  background-image: linear-gradient(
+      to left,
+      rgba(15, 1, 1, 0.445),
+      rgba(8, 0, 0, 0.774)
+    ),
+    url("./images/architect-jd.jpg");
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn-message {
+  background-color: #cda274;
+  border: none;
+  color: beige;
+}
