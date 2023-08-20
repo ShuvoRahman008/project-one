@@ -72,3 +72,69 @@ body {
   border: none;
   color: beige;
 }
+
+.mark-polo {
+  background-image: linear-gradient(
+      to left,
+      rgba(15, 1, 1, 0.445),
+      rgba(8, 0, 0, 0.774)
+    ),
+    url("./images/photos-one/istockphoto-1137116408-612x612.jpg");
+  width: 1903px;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 27px;
+}
+
+.image-one {
+  position: absolute;
+  top: 73px;
+  left: 251px;
+}
+.image-two {
+  position: absolute;
+  top: 230px;
+  left: 137px;
+}
+.image-three {
+  position: absolute;
+  left: 215px;
+  bottom: 30px;
+}
+.image-four {
+  position: absolute;
+  top: 73px;
+  right: 251px;
+}
+.image-five {
+  position: absolute;
+  top: 215px;
+  right: 157px;
+}
+.image-six {
+  position: absolute;
+  right: 235px;
+  bottom: 30px;
+}
+.navbar-container {
+  position: absolute;
+  left: 0%;
+  top: 10px;
+}
+.mark-polo-bottom-section {
+  position: absolute;
+  left: 300px;
+  top: 60px;
+}
+
+@media only screen and (max-width: 841px) {
+  .image-five,
+  .image-four,
+  .image-one,
+  .image-six,
+  .image-three,
+  .image-two {
+    display: none;
+  }
+}
